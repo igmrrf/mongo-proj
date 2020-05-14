@@ -1,0 +1,36 @@
+{
+  "name": "mongo-proj",
+  "version": "0.0.0",
+  "server": false,
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "serve": "turbo devserver",
+    "test": "",
+    "build": "",
+    "postinstall": "turbo postinstall"
+  },
+  "dependencies": {
+    "turbo360": "^1.8.68",
+    "vertex360": "^0.29.6",
+    "express": "^4.17.1",
+    "methods": "^1.1.2",
+    "parseurl": "^1.3.2",
+    "proxy-addr": "^2.0.3",
+    "qs": "6.5.1",
+    "range-parser": "^1.2.0",
+    "safe-buffer": "5.1.1",
+    "send": "0.16.2",
+    "serve-static": "1.13.2",
+    "setprototypeof": "1.1.0",
+    "statuses": "^1.4.0",
+    "type-is": "^1.6.16",
+    "utils-merge": "1.0.1",
+    "vary": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "rimraf": "^2.6.2"
+  },
+  "format": "vertex"
+}
